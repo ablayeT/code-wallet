@@ -11,6 +11,7 @@ import TagsPage from "./pages/TagsPage";
 import FragmentForm from "./components/FragmentForm";
 import InfoPage from "./pages/InfoPage";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/tags" element={<TagsPage />} />
             <Route path="/info" element={<InfoPage />} />
           </Routes>
+          <Footer />
         </Box>
       </Router>
     </ThemeProvider>
