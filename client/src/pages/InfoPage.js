@@ -66,7 +66,7 @@ const InfoPage = () => {
         maîtrise des compétences techniques en React, Electron et Node.js.
       </Typography>
       <Typography variant="body1" sx={{ marginBottom: 2 }}>
-        Développeur principal : <strong>Abdoulaye</strong>.
+        Développeur principal : <strong>Etudiant</strong>.
       </Typography>
 
       <Divider sx={{ my: 2 }} />
